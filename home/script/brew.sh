@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+if which brew > /dev/null; then ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"; fi
+
 sudo -v
 
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
@@ -83,7 +85,9 @@ brew install node
 brew install tmux
 brew install zsh
 brew install rbenv
+brew install ruby-build
 brew install pyenv
+brew install homebrew/science/hdf5
 
 # Remove outdated versions from the cellar.
 brew cleanup

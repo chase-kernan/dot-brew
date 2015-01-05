@@ -87,7 +87,12 @@ brew install zsh
 brew install rbenv
 brew install ruby-build
 brew install pyenv
+brew install pyenv-virtualenv
 brew install homebrew/science/hdf5
+brew install lzo
+brew install openblas
+brew install zmq
+brew install lbzip2
 
 # Remove outdated versions from the cellar.
 brew cleanup

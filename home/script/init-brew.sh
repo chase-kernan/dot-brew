@@ -32,6 +32,8 @@ brew install bash-completion
 # Install `wget` with IRI support.
 brew install wget --with-iri
 
+brew install mercurial
+
 # Install more recent versions of some OS X tools.
 brew install vim --override-system-vi
 brew install homebrew/dupes/grep
@@ -84,8 +86,11 @@ brew install node
 
 brew install tmux
 brew install zsh
+
+brew install libyaml
 brew install rbenv
 brew install ruby-build
+
 brew install pyenv
 brew install pyenv-virtualenv
 brew install homebrew/science/hdf5
@@ -94,5 +99,14 @@ brew install openblas
 brew install zmq
 brew install lbzip2
 
+brew install pssh
+
+brew install Caskroom/cask/xquartz
+brew install wine
+
+brew tap amazon/amazon ssh://git.amazon.com/pkg/HomebrewAmazon
+brew install ninja-dev-sync
+
 # Remove outdated versions from the cellar.
 brew cleanup
+
